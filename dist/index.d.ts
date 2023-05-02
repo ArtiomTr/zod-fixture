@@ -1,2 +1,1 @@
-export { createFixture } from './create-fixture';
-export * from './customizations';
+export * from './src/index'
