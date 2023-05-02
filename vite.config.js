@@ -15,4 +15,7 @@ export default defineConfig({
 			fileName: format => `zod-fixture.${format}.js`,
 		},
 	},
+	rollupOptions: {
+		external: ['cuid', '@paralleldrive/cuid2'],
+	},
 });
